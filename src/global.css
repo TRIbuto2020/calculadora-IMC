@@ -1,0 +1,32 @@
+:root{
+    --verde: #4cd137;
+    --cinza: #2f3640;
+    --cinzaClaro: #d8dfe6;
+    --branco: rgb(247, 247, 247);
+}
+
+@font-face {
+    font-family: ShinGo;
+    src: url(./assets/fonts/AOTFShinGoProRegular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: ShinGo;
+    src: url(./assets/fonts/AOTFShinGoProDeBold.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: ShinGo;
+    src: url(./assets/fonts/AOTFShinGoProHeavy.otf);
+    font-weight: 900;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ShinGo;
+    color: var(--cinza);
+}
