@@ -5,9 +5,9 @@ import styles from './Formulario.module.css';
 const Formulario = () => {
     const [altura, setAltura] = useState(0);
     const [peso, setPeso] = useState(0);
-    const minAlt = 0.5
+    const minAlt = 0
     const maxAlt = 3
-    const minPes = 2
+    const minPes = 0
     const maxPes = 350
 
     const calculaClass = (imc) => {
